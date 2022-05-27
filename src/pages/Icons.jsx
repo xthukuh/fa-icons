@@ -66,7 +66,7 @@ const Icons = () => {
 
 	const onIconType = React.useCallback(e => {
 		setIconType(e.target.value);
-		onClear();
+		setSelected(null);
 		window.scrollTo(0, 0);
 	}, []);
 

@@ -91,7 +91,7 @@ const Icons = () => {
 			<div className="bg-gray-200 p-2">
 				<h1 className="text-3xl text-blue-500">Fa Icons</h1>
 				<p className="text-base text-gray-600 font-bold italic">
-					<span>Fortawesome {IconTypes[iconType]}</span>
+					<span>Fortawesome {IconTypes[iconType]}</span>&nbsp;
 					<span>({`${searchIcons.length === typeIcons.length ? typeIcons.length : searchIcons.length + '/' + typeIcons.length}`} icons)</span>
 				</p>
 				<div className="mt-2 pt-2 flex items-center border-t border-gray-400">

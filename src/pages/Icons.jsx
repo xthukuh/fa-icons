@@ -125,7 +125,7 @@ const Icons = () => {
 						<Fa className="text-3xl" icon={[selected.prefix, selected.iconName]} fixedWidth />
 					</div>
 					<div className="p-3 bg-gray-900 text-white text-xs font-mono flex-grow">
-						<span className="text-green-500">{`import { ${selected.key} } from '@fortawesome/free-solid-svg-icons';`}</span><br />
+						<span className="text-green-500">{`import { ${selected.key} } from '@fortawesome/free-${IconTypes[iconType]}-svg-icons';`}</span><br />
 						<span className="text-yellow-500">{`<FontAwesomeIcon icon={['${selected.prefix}', '${selected.iconName}']} />`}</span>
 					</div>
 					</>

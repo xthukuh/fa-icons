@@ -1,0 +1,19 @@
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html */
+html {
+	font-size: 16px;
+}
+
+/* body */
+body {
+	@apply bg-gray-200 font-sans;
+}
+
+/* root */
+#root {
+	@apply w-full h-screen;
+}

@@ -2,6 +2,9 @@
 
 A Fortawesome icon search and reference client.
 
+[DEMO](https://fa-icons.netlify.app/)
+
+## Install
 ```
 yarn install
 yarn run start

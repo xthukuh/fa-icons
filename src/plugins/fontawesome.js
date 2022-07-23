@@ -4,7 +4,12 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
+//import * as fab from '@fortawesome/free-brands-svg-icons';
+//import * as far from '@fortawesome/free-regular-svg-icons';
+//import * as fas from '@fortawesome/free-solid-svg-icons';
+
 //setup fontawesome
+//[fab, far, fas].map(group => Object.values(group).map(icon => icon && icon.prefix && icon.iconName && icon.icon ? library.add(icon) : null));
 library.add(fab, far, fas);
 
 //exports
